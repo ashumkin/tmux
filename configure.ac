@@ -30,7 +30,7 @@ AC_CHECK_HEADERS(
 		fcntl.h \
 		inttypes.h \
 		libutil.h \
-		ncurses.h \
+		ncurses/ncurses.h \
 		ndir.h \
 		paths.h \
 		pty.h \

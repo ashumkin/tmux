@@ -19,14 +19,14 @@
 #include <sys/types.h>
 
 #ifdef HAVE_CURSES_H
-#include <curses.h>
+#include <ncurses/curses.h>
 #else
-#include <ncurses.h>
+#include <ncurses/ncurses.h>
 #endif
 #include <fnmatch.h>
 #include <stdlib.h>
 #include <string.h>
-#include <term.h>
+#include <ncurses/term.h>
 
 #include "tmux.h"
 
